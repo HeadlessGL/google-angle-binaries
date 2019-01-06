@@ -57,6 +57,9 @@ ninja -C out/Debug
 # to protectProtoStr   = 'EGL_EGL_PROTOTYPES',
 #python3 genheaders.py -registry egl.xml EGL/egl.h
 
+# make package
+sh ./make-package.sh
+
 # reset files
 # comment out for debugging
 sh ./reset-files-as-relative.sh
